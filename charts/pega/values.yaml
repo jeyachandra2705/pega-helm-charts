@@ -55,8 +55,8 @@ global:
   docker:
     registry:
       url: "docker.io/jeyachandra2705/pega861-tomcat-oracle"
-      username: "jeyachandra2705@gmail.com"
-      password: "password"
+      username: "jeyachandra2705"
+      password: "JeyD0cker$6"
       # Docker image information for the Pega docker image, containing the application server.
     pega:
       image: "jeyachandra2705/pega861-tomcat-oracle:latest"
@@ -248,6 +248,8 @@ installer:
     # For postgres databases that you are upgrading from Pega Infinity version 8.4.0 and later
     # And for Oracle databases that you are upgrading from Pega Infinity version 8.4.3 and later.
     targetDataSchema: ""
+
+pegaCredentialVolumeTemplate:
 
 # Hazelcast settings (applicable from Pega 8.6)
 hazelcast:
